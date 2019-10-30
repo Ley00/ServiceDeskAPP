@@ -130,4 +130,7 @@
       <Name>ServiceDesk</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\PRISMA.jpg" />
+  </ItemGroup>
 </Project>

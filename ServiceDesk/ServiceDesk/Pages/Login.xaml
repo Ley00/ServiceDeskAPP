@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ServiceDesk.Pages.Login"
+             Title="Login">
+    
+  <ContentView.Content>
+
+        <StackLayout>
+            
+            <ScrollView>
+                <StackLayout Spacing="30">
+                    <Label Text="Digite o Usuário" />
+                    <Entry Placeholder="Usarname" PlaceholderColor="#000000" x:Name="usarname"/>
+                    <Label Text="Digite a Senha" FontAttributes="#000000"/>
+                    <Entry Placeholder="Password" PlaceholderColor="#000000" x:Name="password"/>
+                    <Button Text="Login" BackgroundColor="#B0C4DE" x:Name="button_login"/>
+               </StackLayout>
+            </ScrollView>
+            
+        </StackLayout>
+      
+  </ContentView.Content>
+</ContentView>

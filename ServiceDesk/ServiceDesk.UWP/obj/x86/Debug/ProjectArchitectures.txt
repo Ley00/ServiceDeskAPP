@@ -1,0 +1,1 @@
+C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.UWP\ServiceDesk.UWP.csproj;x86
