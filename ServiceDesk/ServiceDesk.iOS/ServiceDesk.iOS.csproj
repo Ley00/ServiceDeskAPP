@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EFD5B796-FE02-4F26-8D40-E51103DE9DD7}</ProjectGuid>
+    <ProjectGuid>{4CCA1D1A-2F52-401A-A356-658FEB79AA4C}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -126,7 +126,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\ServiceDesk\ServiceDesk.csproj">
-      <Project>{795FB664-48FD-487E-961E-A83E236C6155}</Project>
+      <Project>{949CB919-099A-40C9-A717-4E36318306C4}</Project>
       <Name>ServiceDesk</Name>
     </ProjectReference>
   </ItemGroup>
