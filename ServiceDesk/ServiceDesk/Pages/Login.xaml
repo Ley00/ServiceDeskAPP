@@ -1,27 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="ServiceDesk.Pages.Login"
              Title="Login">
-    
-  <ContentView.Content>
 
-        <StackLayout>
-            
-            <ScrollView>
-                <StackLayout Spacing="30">
-                    <Label Text="Digite o Usuário" />
-                    <Entry Placeholder="Usarname" PlaceholderColor="#000000" x:Name="usarname"/>
-                    <Label Text="Digite a Senha" FontAttributes="#000000"/>
-                    <Entry Placeholder="Password" PlaceholderColor="#000000" x:Name="password"/>
-                    <Button Text="Login" BackgroundColor="#B0C4DE" x:Name="button_login"/>
-               </StackLayout>
-            </ScrollView>
-            
-        </StackLayout>
-      
-  </ContentView.Content>
-</ContentView>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="primary">#483D8B</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="10" >
+
+                <Label HeightRequest="110"  
+                          HorizontalOptions="FillAndExpand" 
+                          Text="Prisma" 
+                          BackgroundColor="{StaticResource primary}"
+                          TextColor="White" 
+                          FontSize="40" 
+                          HorizontalTextAlignment="Center"
+                          VerticalTextAlignment="Center"/>
+
+                <Entry  Margin="20,40,20,0" 
+                         HeightRequest="50" 
+                         Placeholder="Email"
+                        x:Name="entryEmail">
+                </Entry>
+
+                <Entry Margin="20,0,20,0" 
+                        HeightRequest="50" IsPassword="true"
+                        Placeholder="Password"
+                       x:Name="entryPassword">
+                </Entry>
+
+                <Button Margin="20,0,20,0" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Login"  
+                         BackgroundColor="{StaticResource primary}"
+                         HorizontalOptions="FillAndExpand"/>
+
+                <Button Margin="20,0,20,0" 
+                         HeightRequest="50" 
+                         TextColor="White" 
+                         Text="Register"
+                         Clicked="Button_Clicked"
+                         BackgroundColor="Gray"
+                         HorizontalOptions="FillAndExpand"/>
+
+                <Label Text="Forgot password" 
+                        HorizontalOptions="Center" 
+                        TextColor="{StaticResource primary}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

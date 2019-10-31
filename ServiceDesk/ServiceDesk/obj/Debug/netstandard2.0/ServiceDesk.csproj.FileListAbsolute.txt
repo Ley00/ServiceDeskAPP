@@ -11,3 +11,4 @@ C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk\obj\Debug
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk\obj\Debug\netstandard2.0\ref\ServiceDesk.dll
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk\obj\Debug\netstandard2.0\ServiceDesk.pdb
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk\obj\Debug\netstandard2.0\Pages\Login.xaml.g.cs
