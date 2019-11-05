@@ -496,3 +496,4 @@ C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.Android\o
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\lvsup\Desktop\programacao\ServiceDesk\ServiceDesk\ServiceDesk.Android\obj\Debug\90\android\assets\Mono.Android.pdb
