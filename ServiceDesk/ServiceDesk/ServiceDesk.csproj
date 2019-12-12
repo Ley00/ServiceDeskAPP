@@ -6,6 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controller\**" />
+    <Compile Remove="DAO\**" />
+    <EmbeddedResource Remove="Controller\**" />
+    <EmbeddedResource Remove="DAO\**" />
+    <None Remove="Controller\**" />
+    <None Remove="DAO\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.947036" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
@@ -21,7 +30,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="DAO\" />
+    <Folder Include="ViewModel\" />
   </ItemGroup>
 </Project>
