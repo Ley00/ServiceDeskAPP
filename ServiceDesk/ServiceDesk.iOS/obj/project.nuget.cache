@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lPs8/E8CbEiCZKeaLE+LOLCfHDafzf1rtd2eecBtm/hKknsSjXO93az4znjXhFdyQ8NyBLMABHdsXqD9rYe3vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lvsup\\Desktop\\Projetos\\Desenvolvimento\\ServiceDeskAPP\\ServiceDesk\\ServiceDesk.iOS\\ServiceDesk.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lvsup\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\lvsup\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\lvsup\\.nuget\\packages\\xamarin.forms\\4.7.0.968\\xamarin.forms.4.7.0.968.nupkg.sha512"
+  ],
+  "logs": []
+}
